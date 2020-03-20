@@ -2,6 +2,12 @@
 
 a program that extracts URLs to all apps available from a given f-droid repository
 
+## how to compile
+
+git clone it, enter the directory, `go build` and you should have a `f-harvester` binary handy
+
+no dependencies outside of standard library, bless the cursed scope creep of go
+
 ## how to obtain apks from my phone
 
 1. open f-droid, go to nearby, press "find people near me"
